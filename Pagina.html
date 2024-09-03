@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitos a domicilio</title>
+    <link rel="stylesheet" href="pagina.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Compra de Gatitos</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#gatitos">Gatitos Disponibles</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h2>Bienvenidos a Nuestra Tienda de Gatitos</h2>
+        <p>Encuentra el gatito perfecto para ti y tu familia. Todos nuestros gatitos están vacunados, desparasitados y llenos de amor para dar.</p>
+        <img class="Gatito4" src="IMG/cat4" alt="Imagen de gatitos adorables">
+    </section>
+
+    <section id="gatitos">
+        <h2>Gatitos Disponibles</h2>
+        <div class="gatito">
+            <img src="IMG/Cat1.webp" alt="Gatito 1">
+            <h3>Gatito 1</h3>
+            <p><b>Edad:</b> 3 meses<br><b>Raza:</b> Siames<br><b>Precio:</b> $300</p>
+            <button onclick="mostrarAlerta()">Comprar</button>
+        </div>
+        <div class="gatito">
+            <img src="IMG/cat2.jfif" alt="Gatito 2">
+            <h3>Gatito 2</h3>
+            <p><b>Edad:</b> 4 meses<br><b>Raza:</b> Persa<br><b>Precio:</b> $350</p>
+            <button onclick="mostrarAlerta()">Comprar</button>
+        </div>
+        <div class="gatito">
+            <img src="IMG/cat3.jpg" alt="Gatito 3" >
+            <h3>Gatito 3</h3>
+            <p><b>Edad:</b> 2 meses<br><b>Raza:</b> Maine Coon<br><b>Precio:</b> $400</p>
+            <button onclick="mostrarAlerta()">Comprar</button>
+        </div>
+
+        <script src="Pagina.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+    </section>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Compra de Gatitos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
